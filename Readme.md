@@ -1,7 +1,14 @@
-## Step 1: Home Route:
+## Link to visit site:
+```
+
+https://laundry-server-node-js.vercel.app
+```
+
+## Route 1: Home:
 ![alt text](<assets/Screenshot 2024-12-20 195832.png>)
-## Step 2: About Route:
+
+## Route 2: About:
 ![alt text](<assets/Screenshot 2024-12-20 195917.png>)
 
-## Step 3: Contact Route:
+## Route 3: Contact:
 ![alt text](<assets/Screenshot 2024-12-20 195956.png>)
