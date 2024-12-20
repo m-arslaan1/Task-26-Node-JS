@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - Laundry Service</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        color: #444;
+      }
+      header {
+        background-color: rgba(80, 159, 204, 0.884);
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        position: absolute;
+        right: 0;
+        background-color: rgba(216, 238, 250, 0.938);
+        width: 50vw;
+        height: 100vh;
+      }
+
+      .main {
+        position: relative;
+        top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2rem;
+      }
+
+      .text {
+        font-size: 12px;
+        text-align: end;
+      }
+
+      .text-1 {
+        font-size: 12px;
+        text-align: start;
+      }
+
+      input {
+        padding: 20px 328px 22px 15px;
+        border-radius: 10px;
+        border: none;
+        opacity: 80%;
+        background-color: white;
+      }
+
+      h2 {
+        font-weight: 600;
+        font-size: 2em;
+        color: #333;
+      }
+      p {
+        font-size: 13px;
+        color: #777;
+      }
+
+      #btn {
+        padding: 20px 240px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(4, 152, 238, 0.884);
+        color: white;
+        font-weight: bold;
+      }
+
+      #psswrd {
+        align-items: end;
+      }
+
+      footer {
+        line-height: 9em;
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+      span {
+        color: rgba(34, 162, 236, 0.884);
+        cursor: pointer;
+      }
+
+      .content {
+        position: absolute;
+        left: 0;
+        background-color: rgba(24, 160, 233, 0.973);
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+
+      img {
+        margin: auto;
+        width: 35w;
+        height: 70vh;
+        border-radius: 200px;
+        box-shadow: 10px 10px 67px #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a> | <a href="/about">About Us</a> |
+        <a href="/contact">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <img
+          src="https://i.pinimg.com/736x/ad/03/e6/ad03e620e5faec85fb7bf4c5774d79fd.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="container">
+        <div class="main">
+          <div class="section"><h2>Hello Again!</h2></div>
+          <div><p>Welcome back! we missed you!</p></div>
+
+          <form>
+            <div>
+              <label for="email" class="text-1">Email</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                name="text"
+                required
+                placeholder="Emailid@site.com"
+              />
+            </div>
+            <div class="section">
+              <label for="password" class="text-1">Password</label>
+            </div>
+            <div>
+              <input type="text" name="text" required placeholder="Password" />
+            </div>
+            <div id="psswrd" class="text">Forgot Password</div>
+            <div>
+              <button id="btn">Login</button>
+            </div>
+          </form>
+          <div class="section">
+            <footer>Not a member? <span>Register Now</span></footer>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
