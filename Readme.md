@@ -5,10 +5,13 @@ https://laundry-server-node-js.vercel.app
 ```
 
 ## Route 1: Home:
-![alt text](<assets/Screenshot 2024-12-20 195832.png>)
+![alt text](<assets/homeRoute.png>)
 
 ## Route 2: About:
-![alt text](<assets/Screenshot 2024-12-20 195917.png>)
+![alt text](<assets/aboutRoute.png>)
 
 ## Route 3: Contact:
-![alt text](<assets/Screenshot 2024-12-20 195956.png>)
+![alt text](<assets/contactroute.png>)
+
+## Error: 404 Not Found:
+![alt text](<assets/error404.png>)
